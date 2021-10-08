@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page responsive</title>
+
+    <style>
+        body{
+            background: red;
+        }
+        h1{
+            text-align: center;
+        }
+
+        @media (max-width:500px){
+            body{
+                background: green;
+            }
+        }
+
+        @media (min-width:501px) and (max-width:767px){
+           body{
+               background: orange;
+           }
+        }
+
+        @media (min-width:768px) and (max-width:991px)
+        {
+            body{
+                background: purple;
+            }
+        }
+
+        @media (min-width:992px) and (max-width:1199px)
+        {
+            body{
+                background: teal;
+            }
+        }
+
+        @media (min-width:1200px)
+        {
+            body{
+                background: black;
+            }
+            h1{
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mobile</h1>
+    <h1>Tablette</h1>
+    <h1>Normal</h1>
+    <h1>Large</h1>
+</body>
+</html>

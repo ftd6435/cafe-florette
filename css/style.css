@@ -1,0 +1,283 @@
+/* La partie generale du css du site */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+html body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+/* Entête du site general */
+
+.entete {
+  background: #222;
+  overflow: auto;
+  line-height: 1.7em;
+}
+
+.entete nav h1 {
+  float: left;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.entete nav h1 a {
+  color: white;
+  margin-left: 15px;
+}
+
+.entete nav ul {
+  list-style: none;
+}
+
+.entete nav ul li {
+  float: right;
+}
+
+.entete nav ul li a {
+  float: left;
+  padding: 20px;
+  color: white;
+  display: block;
+  font-size: 18px;
+}
+
+.entete nav ul li a:hover {
+  background: #444;
+}
+
+.active {
+  background: #444;
+}
+
+/* mise en forme de la partie sous entete de la page */
+.a-entete {
+  height: 700px;
+  background: url(../img/barre.jpg) center center/cover;
+}
+
+.a-entete .a-entete-container {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 200px;
+  text-align: center;
+  line-height: 1.9em;
+}
+
+.a-entete .a-entete-container .barre {
+  border: 3px solid black;
+  background: #000;
+  width: 100px;
+  height: 10px;
+  margin: auto;
+}
+
+.a-entete .a-entete-container h1 {
+  font-size: 50px;
+  line-height: 1.5em;
+  color: white;
+}
+
+.a-entete .a-entete-container p {
+  font-size: 18px;
+  color: #eee;
+  margin-bottom: 40px;
+  line-height: 1.8em;
+}
+
+.btn {
+  border-radius: 45%;
+  padding: 25px;
+  font-weight: 700;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-decou {
+  background: white;
+  color: #222;
+}
+
+.btn-reser {
+  background: #222;
+  color: white;
+}
+
+.btn-reser:hover {
+  background: white;
+  color: #222;
+  border: 2px solid #222;
+}
+
+.btn-decou:hover {
+  background: #222;
+  color: white;
+}
+
+/* Mise en forme de la partie du verre de café et de la montre */
+.cafe-montre {
+  height: 500px;
+  overflow: auto;
+}
+
+.cafe-montre .container {
+  float: left;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.cafe-montre .container .sous-container {
+  display: inline-block;
+  padding: 30px;
+}
+
+.cafe-montre .container .sous-container p {
+  max-width: 400px;
+}
+
+/* Mise en forme de la partie de l'image du cafe */
+.barre-cafe {
+  height: 400px;
+  background: url(../img/cafe3.jpg) center center/cover;
+}
+
+/* Mise en forme de la partie de la reservation */
+.reservation {
+  height: 250px;
+}
+
+.reser-container {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.reser-container p {
+  margin-bottom: 50px;
+}
+
+/* Mise en forme du pied de page general */
+footer {
+  padding: 20px 0;
+  background: #222;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+
+/* Mise en forme du corps de la page retrouve */
+.retrouve-nous {
+  padding: 170px 0px 100px 0;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.carte {
+  float: left;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 700px;
+  padding-left: 100px;
+}
+
+.sous-carte {
+  float: right;
+  width: 500px;
+}
+
+.chip {
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 100%;
+  border: 1px solid #333;
+  text-align: center;
+  width: 30px;
+}
+
+.chip-purple {
+  background: #be418d;
+}
+
+.chip-brown {
+  background: #9a723f;
+}
+
+.souligner {
+  border-bottom: 2px solid #444;
+  padding-bottom: 10px;
+}
+
+/* Mise en forme du corps de la page contact */
+.contact {
+  height: 700px;
+}
+
+.titre-contact {
+  padding-top: 20px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+fieldset {
+  max-width: 500px;
+  max-height: 600px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 20px 15px 8px 10px #ccc;
+}
+
+form {
+  padding-left: 95px;
+}
+
+legend {
+  font-weight: 700;
+}
+
+input,
+textarea,
+label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+textarea {
+  padding-bottom: 30px;
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+}
+
+label {
+  padding-top: 10px;
+  font-size: 18px;
+}

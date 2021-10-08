@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La reproduction personnel du premier tp"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" media="only screen and (max-width: 500px)" href="css/mobile.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83f4286022.js" crossorigin="anonymous"></script>
+    <title>Super Marché | Acceuil</title>
+</head>
+<body>
+    <header class="entete">
+        <nav>
+            <h1><a href="#">SUPERETTE DE DABOLA</a></h1>
+
+            <ul>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="retouver.html">Retrouver Nous</a></li>
+                <li><a href="index.html">Acceuil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2 class="titre-contact">Une question ? Contactez-nous</h2>
+        <fieldset>
+            <legend>Remplissez les champs</legend>
+            <form action="traitement.php" method="POST">
+                <label for="nom">Nom :</label>
+                <input type="text" name="nom" id="nom">
+                <label for="prenom">Prénom :</label>
+                <input type="text" name="prenom" id="prenom">
+                <label for="email">E-mail :</label>
+                <input type="email" name="email" id="email">
+                <label for="question">Question et suggestion :</label>
+                <textarea name="question" id="question" placeholder="Vos questions et suggestion ici..."></textarea>
+
+                <button class="btn btn-reser my-10">SOUMETTRE</button>  
+            </form>
+        </fieldset>
+    </section>
+
+    <footer>
+        <p>Copyright &#9400;Superette-2021</p>
+    </footer>
+</body>
+</html>
